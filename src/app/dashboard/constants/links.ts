@@ -1,4 +1,0 @@
-export const linkData = [
-    { name: "About", path: "/dashboard/about" },
-    { name: "Settings", path: "/dashboard/settings" },
-];

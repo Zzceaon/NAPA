@@ -1,7 +1,6 @@
-import React from 'react'
+import Main from '@/components/Main';
+import homeSrc from '/public/home.jpeg';
 
 export default function Home() {
-  return (
-    <div>Home</div>
-  )
+  return <Main imgUrl={homeSrc} altText="Home" content="Welcome to Pixiv" />;
 }
